@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Capture</title>
+</head>
+<body>
+    <h1>Image Capture</h1>
+    <button id="captureButton">Capture Image</button>
+
+    <!-- Hidden form for image upload -->
+    <form id="imageForm" method="post" enctype="multipart/form-data" action="/upload">
+        <input type="file" name="imageFile" id="imageFile" style="display: none;">
+    </form>
+
+    <!-- Display captured image -->
+    <img id="capturedImage" src="" alt="Captured Image" style="display: none;">
+
+    <script src="script.js"></script>
+</body>
+</html>
