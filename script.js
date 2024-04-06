@@ -13,10 +13,10 @@ app.get('/', (req, res) => {
 
 // SFTP configuration
 const sftpConfig = {
-    host: '10.144.62.220',
+    host: '11.532.64.853',
     port: 22, // SFTP port
-    username: 'tofiqv',
-    password: 'aKindT0fiq'
+    username: 'dau',
+    password: 'aebajBjvJ8'
 };
 
 // Route to capture and upload the image
