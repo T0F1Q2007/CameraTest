@@ -83,7 +83,7 @@ const upload = multer({ storage: storage });
 
 // SFTP configuration
 const sftpConfig = {
-    host: '82.194.13.43',
+    host: '10.144.62.220',
     port: 22, // SFTP port
     username: 'tofiqv',
     password: 'aKindT0fiq'
